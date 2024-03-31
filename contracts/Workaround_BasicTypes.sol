@@ -23,6 +23,20 @@ contract BasicTypes{
         greeting = _myGreeting;
     }
 
+    //Working with addresses
+    address public anAddress;
+    //It also has a member known as the balance
+
+    function setAddress(address _anAdress) public {
+        anAddress = _anAdress;
+    }
+
+    function getAddressBalance() public view returns(uint) {
+        return anAddress.balance/1000000000000000000;
+    }
+
+
+
     //Public view function is a reading function and it must return a value
     function compareStrings(string memory _myGreeting2) public  view returns(bool){
         return keccak256(abi.encodePacked(greeting)) == keccak256(abi.encodePacked(_myGreeting2));

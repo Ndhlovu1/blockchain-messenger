@@ -6,6 +6,19 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "anAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -29,6 +42,19 @@
 				"name": "decreementUint",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAddressBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -119,6 +145,19 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "_anAdress",
+						"type": "address"
+					}
+				],
+				"name": "setAddress",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "string",
 						"name": "_myGreeting",
 						"type": "string"
@@ -171,11 +210,11 @@
 	},
 	"sources": {
 		"contracts/Workaround_BasicTypes.sol": {
-			"keccak256": "0xc74447a8f6079f73b624e68ede6bc7aecaa813b92cc62d3dd6833f5e2d521b0a",
+			"keccak256": "0x418b2a62e00368aa224564f8fa15032caff8d1294e92c9a53325c07d367f3da1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3b1c1770190c9c36abbbb5d1940072297cd88025e866d12f47a45dd47f2eaf30",
-				"dweb:/ipfs/QmWjATdrh2ea5HtBM1scUbm4chB72cFuFiqfiC32U5QPUh"
+				"bzz-raw://14eef7d6fe8e2c0b42ce585c902e40160ad69ba1ad716624379833ce74d78e36",
+				"dweb:/ipfs/QmSG7Dtdmfze9v95EjrRfJ3Ju9XjKcsUGKYgTuH8JuAN3h"
 			]
 		}
 	},
