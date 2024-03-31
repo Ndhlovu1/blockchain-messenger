@@ -6,6 +6,25 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_myGreeting2",
+						"type": "string"
+					}
+				],
+				"name": "compareStrings",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "decreementUint",
 				"outputs": [],
@@ -14,9 +33,35 @@
 			},
 			{
 				"inputs": [],
+				"name": "greeting",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "incrementInt",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myBytesGreeting",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
@@ -74,6 +119,19 @@
 			{
 				"inputs": [
 					{
+						"internalType": "string",
+						"name": "_myGreeting",
+						"type": "string"
+					}
+				],
+				"name": "setMyString",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint256",
 						"name": "_myUint",
 						"type": "uint256"
@@ -113,11 +171,11 @@
 	},
 	"sources": {
 		"contracts/Workaround_BasicTypes.sol": {
-			"keccak256": "0x88cc16a019f79b868ace0b7c269db90f8b010b308e9e15eda05ce8d7aefe6d88",
+			"keccak256": "0xc74447a8f6079f73b624e68ede6bc7aecaa813b92cc62d3dd6833f5e2d521b0a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://152671808820d82ceb3e5591b21cb7e5aa2e0c9bac7a273a8b3da8a5a32f8fa5",
-				"dweb:/ipfs/QmVFYHvsiFdaYMQgLCKx4tbXEtfJ7hX2K8sByNJDDKaEAW"
+				"bzz-raw://3b1c1770190c9c36abbbb5d1940072297cd88025e866d12f47a45dd47f2eaf30",
+				"dweb:/ipfs/QmWjATdrh2ea5HtBM1scUbm4chB72cFuFiqfiC32U5QPUh"
 			]
 		}
 	},
